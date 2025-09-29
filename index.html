@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Deafs — Official Website</title>
+  <meta name="description" content="The Deafs — experimental jazz‑rock band. New album 'Album' out now on Spotify." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Deafs — Album" />
+  <meta property="og:description" content="Official website of The Deafs. Listen to our debut album 'Album' on Spotify." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://johhnyjack007-creator.github.io/The-deafs/" />
+  <meta property="og:image" content="https://johhnyjack007-creator.github.io/The-deafs/cover.jpg" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="wrap hero-content">
+      <div class="meta">
+        <h1>The Deafs</h1>
+        <p class="tagline">Experimental Jazz‑Rock — Debut Album “Album” • Out Now</p>
+        <div class="actions">
+          <!-- Replace with your Spotify album URL -->
+          <a class="btn primary" href="https://open.spotify.com/album/YOUR_ALBUM_ID" target="_blank" rel="noopener">Listen on Spotify</a>
+          <a class="btn" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">Follow</a>
+        </div>
+      </div>
+      <figure class="cover">
+        <img src="cover.jpg" alt="Album cover — Album">
+      </figure>
+    </div>
+  </header>
+
+  <main class="content wrap">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>The Deafs craft bold, improvisational music at the intersection of jazz and progressive rock. We blend complex harmonies, off‑kilter rhythms and analog grit to create immersive, cinematic soundscapes.</p>
+    </section>
+
+    <section id="album" class="card">
+      <h2>Album — “Album”</h2>
+      <p>Stream the full record below. For best experience open on the Spotify app.</p>
+      <div class="spotify-embed">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/YOUR_ALBUM_ID" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+    </section>
+
+    <section id="updates" class="card">
+      <h2>Updates & Booking</h2>
+      <p>We don't have a press kit at the moment. For high‑resolution images, interviews or booking inquiries please contact us directly — we respond promptly.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:info@YOUR_DOMAIN_HERE">info@YOUR_DOMAIN_HERE</a></li>
+        <li>Management: <a href="tel:+YOURPHONENUMBER">+YOURPHONENUMBER</a></li>
+      </ul>
+    </section>
+
+    <section id="links" class="card">
+      <h2>More</h2>
+      <p>Streaming • Socials • Updates</p>
+      <div class="links-grid">
+        <a class="tile" href="https://open.spotify.com/artist/YOUR_ARTIST_ID" target="_blank" rel="noopener">Artist on Spotify</a>
+        <a class="tile" href="https://music.apple.com/" target="_blank" rel="noopener">Other Stores</a>
+        <a class="tile" href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> The Deafs. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
